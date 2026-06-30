@@ -1,0 +1,268 @@
+[
+  {
+    "slug": "dm",
+    "title_zh": "差异一元论",
+    "title_en": "Difference Monism",
+    "one_liner": "哲学基础 · 世界由差异结构构成，而非现成实体",
+    "chain_position": 1,
+    "doi": "10.5281/zenodo.19852505",
+    "zenodo_id": "19852505",
+    "overview_file": "layers/dm.md",
+    "github_dir": "10-哲学核心层（DM）",
+    "upstream": [],
+    "downstream": [
+      "asto"
+    ],
+    "reading_path": "scholar",
+    "concepts": [
+      "差异结构",
+      "涌现",
+      "边界继承",
+      "层叠演化"
+    ],
+    "innovation": "以'差异'替代'实体'作为最小本体承诺，重构存在论基础"
+  },
+  {
+    "slug": "asto",
+    "title_zh": "属集变迁存在论",
+    "title_en": "Attribute-Set Transition Ontology",
+    "one_liner": "应用桥接 · 统一的结构描述语法，连接哲学与所有下游层",
+    "chain_position": 2,
+    "doi": "10.5281/zenodo.19856467",
+    "zenodo_id": "19856467",
+    "overview_file": "layers/asto.md",
+    "github_dir": "20-应用框架层（ASTO）",
+    "upstream": [
+      "dm"
+    ],
+    "downstream": [
+      "ocgs",
+      "arbt"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "一元（存在切片）",
+      "五态空间模态",
+      "六阶时间节律",
+      "七序行动操作",
+      "FREEZE 门禁"
+    ],
+    "innovation": "1-5-6-7-1 核心螺旋：从哲学到工程的可执行桥接语法"
+  },
+  {
+    "slug": "ocgs",
+    "title_zh": "能力有序治理层",
+    "title_en": "Ordered Capability Governance Set",
+    "one_liner": "AI 治理 · 能力入序与有序治理",
+    "chain_position": 3,
+    "doi": "10.5281/zenodo.20149696",
+    "zenodo_id": "20149696",
+    "overview_file": "layers/ocgs.md",
+    "github_dir": "25-能力有序治理层（OCGS）",
+    "upstream": [
+      "asto"
+    ],
+    "downstream": [
+      "arbt"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "能力入序",
+      "有序治理",
+      "AI 治理边界"
+    ],
+    "innovation": "把治理结构化为可入序的能力集合"
+  },
+  {
+    "slug": "arbt",
+    "title_zh": "权责边界变迁理论",
+    "title_en": "Arbitration / Authority-Boundary Transition Theory",
+    "one_liner": "治理边界 · 权力合法性的约束条件与文明演化",
+    "chain_position": 4,
+    "doi": "10.5281/zenodo.19855877",
+    "zenodo_id": "19855877",
+    "overview_file": "layers/arbt.md",
+    "github_dir": "30-权责边界层（ARBT）",
+    "upstream": [
+      "ocgs"
+    ],
+    "downstream": [
+      "tat"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "权责边界",
+      "合法性约束",
+      "边界变迁"
+    ],
+    "innovation": "把权力合法性结构化为可约束的边界变迁"
+  },
+  {
+    "slug": "tat",
+    "title_zh": "责任架构理论",
+    "title_en": "Task-Accountability Topology",
+    "one_liner": "责任架构 · 责任的可分解、可追溯、可承接结构",
+    "chain_position": 5,
+    "doi": "10.5281/zenodo.19855204",
+    "zenodo_id": "19855204",
+    "overview_file": "layers/tat.md",
+    "github_dir": "40-责任架构层（TAT）",
+    "upstream": [
+      "arbt"
+    ],
+    "downstream": [
+      "odd"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "责任拓扑",
+      "可追溯",
+      "可承接"
+    ],
+    "innovation": "责任可分解为可追溯的拓扑结构"
+  },
+  {
+    "slug": "odd",
+    "title_zh": "产出物驱动开发",
+    "title_en": "Output-Driven Development",
+    "one_liner": "工程方法 · 以产出物为核心的工程开发方法论",
+    "chain_position": 6,
+    "doi": "10.5281/zenodo.19856890",
+    "zenodo_id": "19856890",
+    "overview_file": "layers/odd.md",
+    "github_dir": "50-工程方法层（ODD）",
+    "upstream": [
+      "tat"
+    ],
+    "downstream": [
+      "pfm",
+      "cop"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "产出物驱动",
+      "工程链",
+      "方法论"
+    ],
+    "innovation": "以产出物而非流程为核心组织工程开发"
+  },
+  {
+    "slug": "pfm",
+    "title_zh": "前线显影层",
+    "title_en": "Problem Frontline Mapping",
+    "one_liner": "问题显影 · 把模糊问题显影为可分流的结构",
+    "chain_position": 7,
+    "doi": null,
+    "zenodo_id": null,
+    "overview_file": "layers/pfm.md",
+    "github_dir": "54-前线显影层（PFM）",
+    "upstream": [
+      "odd"
+    ],
+    "downstream": [
+      "cop"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "问题显影",
+      "风险分流前置"
+    ],
+    "innovation": "把问题域显影为可分流的结构"
+  },
+  {
+    "slug": "cop",
+    "title_zh": "认知计算层",
+    "title_en": "Cognitive Operation Pipeline",
+    "one_liner": "风险分流 · 认知风险的可计算分流与转介",
+    "chain_position": 8,
+    "doi": "10.5281/zenodo.19856272",
+    "zenodo_id": "19856272",
+    "overview_file": "layers/cop.md",
+    "github_dir": "51-认知计算层（COP）",
+    "upstream": [
+      "pfm"
+    ],
+    "downstream": [
+      "lsm",
+      "wsh"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "认知风险分流",
+      "专业转介",
+      "失效边界"
+    ],
+    "innovation": "认知风险可计算分流并触发专业转介"
+  },
+  {
+    "slug": "lsm",
+    "title_zh": "人生察局学",
+    "title_en": "Life Situation Mapping",
+    "one_liner": "低风险观察 · 非临床的人生局面观察与复盘",
+    "chain_position": 9,
+    "doi": null,
+    "zenodo_id": null,
+    "overview_file": "layers/lsm.md",
+    "github_dir": "52-人生察局学（LSM）",
+    "upstream": [
+      "cop"
+    ],
+    "downstream": [
+      "rt6"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "低风险观察",
+      "局面复盘",
+      "非临床承接"
+    ],
+    "innovation": "为非临床人生局面提供结构化观察与复盘方法"
+  },
+  {
+    "slug": "wsh",
+    "title_zh": "和悦论",
+    "title_en": "Well-being & Harmony",
+    "one_liner": "生活平衡 · 五维生活维度的和悦平衡",
+    "chain_position": 9,
+    "doi": null,
+    "zenodo_id": null,
+    "overview_file": "layers/wsh.md",
+    "github_dir": "53-和悦论（WSH）",
+    "upstream": [
+      "cop"
+    ],
+    "downstream": [
+      "rt6"
+    ],
+    "reading_path": null,
+    "concepts": [
+      "五维生活",
+      "和悦平衡",
+      "低风险"
+    ],
+    "innovation": "把生活平衡结构化为五维度的和悦平衡"
+  },
+  {
+    "slug": "rt6",
+    "title_zh": "操作承接层",
+    "title_en": "Runtime Task Six",
+    "one_liner": "非临床行动承接 · 已分流后的可执行行动承接",
+    "chain_position": 10,
+    "doi": "10.5281/zenodo.19856379",
+    "zenodo_id": "19856379",
+    "overview_file": "layers/rt6.md",
+    "github_dir": "55-操作承接层（RT6）",
+    "upstream": [
+      "lsm",
+      "wsh"
+    ],
+    "downstream": [],
+    "reading_path": null,
+    "concepts": [
+      "非临床行动",
+      "可执行承接",
+      "闭环"
+    ],
+    "innovation": "为已分流局面提供可执行的非临床行动承接"
+  }
+]

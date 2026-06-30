@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 构建输出（由 build.py 生成，CI 也会重新生成）
+public/
+
+# 本地运行产物
+*.log
